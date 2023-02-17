@@ -30,7 +30,7 @@ pipeline {
 
         sh '''
 
-          cat README.md
+          touch README.md
 
         '''
 
