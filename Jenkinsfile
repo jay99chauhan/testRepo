@@ -20,7 +20,6 @@ pipeline {
 
         '''
 
-      steps {
       }
 
     }
@@ -31,7 +30,7 @@ pipeline {
 
         sh '''
 
-          touch JV.md
+          touch README.md
 
         '''
 
