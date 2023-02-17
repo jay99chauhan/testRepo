@@ -17,6 +17,7 @@ pipeline {
         sh '''
 
           java -version
+          echo 'hello'
 
         '''
 
