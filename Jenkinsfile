@@ -17,7 +17,6 @@ pipeline {
         sh '''
 
           java -version
-          echo 'hello'
 
         '''
 
@@ -25,10 +24,7 @@ pipeline {
 
     }
 
-  }
-  
-  stage('cat README') {
-
+    stage('cat README') {
 
       steps {
 
