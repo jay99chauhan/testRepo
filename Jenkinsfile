@@ -16,7 +16,7 @@ pipeline {
 
         sh '''
 
-          bash ./var/lib/jenkins/workspace/build-script /var/lib/jenkins/workspace/IRS_launcher_v2.5/IRSLauncher.pro  /home/irs_jay/build_destination
+          bash /var/lib/jenkins/workspace/build-script /var/lib/jenkins/workspace/IRS_launcher_v2.5/IRSLauncher.pro  /home/irs_jay/build_destination
 
         '''
 
