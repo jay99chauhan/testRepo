@@ -16,7 +16,7 @@ pipeline {
 
         sh '''
 
-          bash /var/lib/jenkins/workspace/build-script /var/lib/jenkins/workspace/IRS_launcher_v2.5/IRSLauncher.pro  var/lib/jenkins/workspace/build/bin/
+          bash /var/lib/jenkins/workspace/build-script --pro-file-path /var/lib/jenkins/workspace/IRS_launcher_v2.5/IRSLauncher.pro --build-at /var/lib/jenkins/workspace/build/bin/ --qt-root /home/irs_jay/Qt --qt-version 5.15.2
 
         '''
 
