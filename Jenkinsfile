@@ -25,5 +25,13 @@ pipeline {
     }
 
   }
+  
+      post{
+        always{
+            mail to: "jagruti.vaswani@ishitva.in",
+            subject: "Build Successful",
+            body: "Completed the build please review once."
+        }
+    }
 
 }
